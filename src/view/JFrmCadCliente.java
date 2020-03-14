@@ -346,7 +346,7 @@ public class JFrmCadCliente extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "O Campo Data Nacimento é Obrigatorio", "ERRO", JOptionPane.ERROR_MESSAGE);
             return false;
         }
-        if (txt_telefone.getText().isEmpty()) {
+        if (txt_telefone.getText().equals("()    -    ")) {
             JOptionPane.showMessageDialog(null, "O Campo Telefone é Obrigatorio", "ERRO", JOptionPane.ERROR_MESSAGE);
             return false;
         }
